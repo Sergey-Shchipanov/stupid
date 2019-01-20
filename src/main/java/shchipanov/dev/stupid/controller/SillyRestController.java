@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SillyRestController {
 
     @GetMapping(value = "/hello",params = "name")
-    public String SillyMethod(String name) {
+    public String sillyMethod(String name) {
         return "Hello " + name + "!";
     }
 }
